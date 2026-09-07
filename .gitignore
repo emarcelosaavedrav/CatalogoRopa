@@ -1,0 +1,26 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+**/bin/
+**/obj/
+
+# Local environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDE and operating system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.vs/
+.idea/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
