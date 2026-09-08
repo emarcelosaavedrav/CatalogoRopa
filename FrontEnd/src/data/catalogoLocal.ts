@@ -29,7 +29,7 @@ export const obtenerProductos = (): Producto[] =>
         codigo,
         categoria: nombreCategoria(categoria),
         imagenUrl,
-        descripcion: `.`,
+        descripcion: ``,
       };
     })
     .sort((a, b) => a.codigo.localeCompare(b.codigo));
